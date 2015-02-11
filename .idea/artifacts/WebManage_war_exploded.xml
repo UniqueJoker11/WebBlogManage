@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="WebManage:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebManage_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebManage/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebManage" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.1.2.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.1.2.RELEASE" />
+          <element id="library" level="project" name="mysql:mysql-connector-java:5.0.7" />
+          <element id="library" level="project" name="org.hibernate:hibernate-c3p0:4.2.0.Final" />
+          <element id="library" level="project" name="org.beetl:beetl-core:2.1.1" />
+          <element id="library" level="project" name="com.fasterxml.jackson.core:jackson-databind:2.4.2" />
+          <element id="library" level="project" name="net.sourceforge.json:com.springsource.net.sf.json:2.2.2" />
+          <element id="library" level="project" name="jodd-3.6.1" />
+          <element id="library" level="project" name="javax.media:jmf:2.1.1e" />
+          <element id="library" level="project" name="org.aspectj:com.springsource.org.aspectj.weaver:1.7.1.RELEASE" />
+          <element id="library" level="project" name="org.slf4j:com.springsource.slf4j.log4j:1.6.1" />
+          <element id="library" level="project" name="org.aopalliance:com.springsource.org.aopalliance:1.0.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

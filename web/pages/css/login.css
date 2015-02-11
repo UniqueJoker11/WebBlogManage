@@ -1,0 +1,28 @@
+.nav-header {
+    background-color: #5CACEE;
+    height: 90px;
+}
+
+.colin-left-nav {
+    height: 400px;
+}
+.colin-login-form{
+    margin:30px 0;
+}
+.colin-login-form label{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4876FF;
+    line-height: 40px;
+    margin:0 !important;
+    letter-spacing: 1.5px;
+}
+.colin-form-btn{
+    text-align: center;
+}
+.colin-form-btn button{
+    margin:30px 40px 0 0 !important;
+}
+.colin-login-tabs{
+    margin: 60px 0 0 0;
+}
